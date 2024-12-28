@@ -1,4 +1,4 @@
-import content from "./content";
+import content from "@/content/home";
 import Image from "next/image";
 
 export default function Home({ lang }: { lang: "en" | "ar" }) {
