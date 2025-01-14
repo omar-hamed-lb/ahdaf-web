@@ -8,7 +8,7 @@ const content = {
     ar: "مرحبا بكم في موقعنا",
   },
   paragraph: {
-    en: "We are glad to have you here. Explore our content and enjoy your stay. and be in touch.",
+    en: "We are glad to have you here. Explore our content and enjoy your stay.",
     ar: "نحن سعداء بوجودكم هنا. استكشفوا محتوياتنا واستمتعوا بإقامتكم.",
   },
 };
