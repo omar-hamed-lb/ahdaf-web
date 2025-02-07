@@ -15,16 +15,16 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[#0D1321] opacity-90"></div>
 
       {/* Content Wrapper */}
-      <div className="relative flex flex-col-reverse md:flex-row items-center justify-between text-white space-y-8  md:space-y-0">
+      <div className="relative flex flex-col md:flex-row items-center justify-between text-white space-y-8  md:space-y-0">
         {/* Left Side - Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-green-500 leading-tight md:-mt-20 md:mb-10">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-green-500 leading-tight md:-mt-20 md:mb-10 mr-4">
             EMPOWERING CHANGE <br className="hidden md:block" /> THROUGH GIVING
           </h1>
-          <h2 className="text-sm sm:text-lg md:text-xl font-semibold text-red-500 mt-3 md:mt-4 md:mb-10">
+          <h2 className="text-sm sm:text-lg md:text-xl font-semibold text-red-500 mt-3 md:mt-4 md:mb-10 ">
             AHDAF CHARITY ENDOWMENT
           </h2>
-          <p className="mt-3 md:mt-4 text-d sm:text-sm md:text-2xl text-gray-300 leading-relaxed mb-4">
+          <p className="mt-3 md:mt-4 text-d sm:text-sm md:text-2xl text-gray-300 leading-relaxed mb-4 mr-4">
             We are a diverse group of individuals from Northern Lebanon, united
             by vision to positively transform society. Our members include
             educators, business professionals, and workers from various fields,
@@ -34,9 +34,9 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Slider with Mask */}
-        <div className="w-full md:w-1/2 flex justify-center sm:justify-end xs:justify-end">
+        <div className="w-full md:w-1/2 flex justify-center">
           <div
-            className="relative w-full max-w-sm md:max-w-full h-[500px] sm:h-[300px] md:h-[calc(100vh-60px)]"
+            className="relative w-full max-w-sm md:max-w-full h-[500px] sm:h-[300px] md:h-[calc(100vh-60px)] -mr-7"
             style={{
               maskImage: "url('/images/mask.svg')",
               WebkitMaskImage: "url('/images/mask.svg')",
