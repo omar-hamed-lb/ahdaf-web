@@ -6,5 +6,5 @@ export const metadata: Metadata = {
   description: "Ahdaf website",
 };
 export default function Page() {
-  return <Home lang="ar" />;
+  return <Home />;
 }

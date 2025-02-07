@@ -5,7 +5,7 @@ import HomePrograms from "./Programs";
 import Impact from "./impact";
 import Hero from "./Hero";
 
-export default function Home({ lang }: { lang: "en" | "ar" }) {
+export default function Home() {
   return (
     <>
       <Head>
