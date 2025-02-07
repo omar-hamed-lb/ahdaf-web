@@ -62,7 +62,7 @@ export function Pillar({
       <div className="flex-shrink-0 mb-4 min">
         <Image
           className="mx-auto min-h-[120px]"
-          src={`/icons1/${icon}`}
+          src={`/icons/${icon}`}
           alt="Icon"
           height={60}
           width={60}
