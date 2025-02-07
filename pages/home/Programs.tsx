@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function HomePrograms() {
   return (
-    <section className="py-16 text-center bg-white">
+    <section className="py-16 text-center bg-white px-4">
       <h2 className="text-3xl font-bold text-green-500">OUR PROGRAMS</h2>
       <p className="text-black text-center mt-4 max-w-4xl mx-auto text-xl">
         All the coordinated set of activities, projects, or services carried out
         by AHDAF organization to support educational needs.
       </p>
-      <div className="grid grid-cols-1 text-left md:grid-cols-3 gap-6 px-6 mt-8">
+      <div className="grid grid-cols-1 text-left md:grid-cols-3 gap-6 mt-8">
         <ProgramCard
           title="ESHRAQAT ELEM"
           description="Provides academic support and life coaching for high school students, guiding them in selecting university majors while enhancing their overall educational experience."
@@ -29,7 +29,7 @@ export default function HomePrograms() {
           goto="#"
         />
       </div>
-      <div className="grid grid-cols-1 text-left md:grid-cols-2 gap-6 px-6 mt-8">
+      <div className="grid grid-cols-1 text-left md:grid-cols-2 gap-6 mt-8">
         <ProgramCard
           title="AJWAD CENTER"
           description="Dedicated to improving school development through innovative educational practices, aiming to enhance the overall learning experience for students in Lebanon."

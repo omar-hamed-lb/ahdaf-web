@@ -1,7 +1,7 @@
 export default function Impact() {
   return (
     <section className="py-16 text-center">
-      <h2 className="text-5xl font-bold text-center ml-14">
+      <h2 className="text-5xl font-bold text-center">
         OUR IMPACT
         <span className="text-xl text-red-500 pl-3 block md:inline">
           2020-2025

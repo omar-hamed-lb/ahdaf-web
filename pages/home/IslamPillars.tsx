@@ -31,7 +31,7 @@ export default function IslamPillars() {
             icon="sawm.svg"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 mt-8 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 mt-8 text-white text-xl">
           <Pillar
             name="Zakat"
             description="The act of giving a portion of one’s wealth to help those in need."
