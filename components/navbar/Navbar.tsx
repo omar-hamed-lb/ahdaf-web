@@ -114,7 +114,7 @@ export default function Navbar() {
               </div>
             </li>
           </ul>
-          <button className="bg-red-600 px-4 py-2 rounded w-full">
+          <button className="bg-red-600 px-4 py-2 rounded w-full ">
             Donate
           </button>
         </div>
