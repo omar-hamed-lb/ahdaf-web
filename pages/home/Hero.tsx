@@ -8,7 +8,7 @@ import "swiper/css";
 const Hero = () => {
   return (
     <section
-      className="relative py-12 px-4 sm:px-8 md:px-16 text-center bg-cover bg-center pb-0 pr-0 md:pr-0"
+      className="relative py-20 px-4 sm:px-8 md:px-16 text-center bg-cover bg-center pb-0 pr-0 md:pr-0"
       style={{ backgroundImage: "url('/backgrounds/hero_bg.png')" }}
     >
       {/* Background Overlay */}
@@ -34,9 +34,9 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Slider with Mask */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-end">
           <div
-            className="relative w-full max-w-sm md:max-w-full h-[500px] sm:h-[300px] md:h-[calc(100vh-60px)] -mr-7"
+            className="relative w-full max-w-sm md:max-w-full h-[500px] sm:h-[300px] md:h-[calc(100vh-60px)] "
             style={{
               maskImage: "url('/images/mask.svg')",
               WebkitMaskImage: "url('/images/mask.svg')",

@@ -15,8 +15,8 @@ export default function Navbar() {
           <Link href="/">
             <Image
               src="/logos/logo.svg"
-              width={50}
-              height={50}
+              width={80}
+              height={80}
               alt="Ahdaf Charity"
               className="logo"
             />
