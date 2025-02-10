@@ -1,10 +1,8 @@
-import Footer from "@/components/footer/footer";
 import Head from "next/head";
 import IslamPillars from "./IslamPillars";
 import HomePrograms from "./Programs";
 import Impact from "./impact";
 import Hero from "./Hero";
-import Navbar from "./Navbar";
 export default function Home() {
   return (
     <>
