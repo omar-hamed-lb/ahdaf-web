@@ -88,29 +88,29 @@ export default function Navbar() {
             <li className="relative group">
               <button className="dropbtn">About Us</button>
               <div className="dropdown-content bg-[#0b1c39] text-white p-4 rounded">
-                <Link href="/about/who-we-are">Who We Are?</Link>
-                <Link href="/about/annual-report">Annual Report</Link>
-                <Link href="/about/timeline">Timeline</Link>
+                <Link href="#">Who We Are?</Link>
+                <Link href="#">Annual Report</Link>
+                <Link href="#">Timeline</Link>
               </div>
             </li>
             <li className="relative group">
               <button className="dropbtn">Our Programs</button>
               <div className="dropdown-content bg-[#0b1c39] text-white p-4 rounded">
-                <Link href="/programs/program1">Program 1</Link>
-                <Link href="/programs/program2">Program 2</Link>
-                <Link href="/programs/program3">Program 3</Link>
-                <Link href="/programs/program4">Program 4</Link>
-                <Link href="/programs/program5">Program 5</Link>
+                <Link href="#">Program 1</Link>
+                <Link href="#">Program 2</Link>
+                <Link href="#">Program 3</Link>
+                <Link href="#">Program 4</Link>
+                <Link href="#">Program 5</Link>
               </div>
             </li>
             <li>
-              <Link href="/contact">Contact Us</Link>
+              <Link href="#">Contact Us</Link>
             </li>
             <li className="relative group">
               <button className="dropbtn">Language</button>
               <div className="dropdown-content bg-[#0b1c39] text-white p-4 rounded">
-                <Link href="/ar">Arabic</Link>
-                <Link href="/">English</Link>
+                <Link href="#">Arabic</Link>
+                <Link href="#">English</Link>
               </div>
             </li>
           </ul>
