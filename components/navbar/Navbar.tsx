@@ -45,7 +45,7 @@ export default function Navbar() {
             </div>
           </li>
           <li>
-            <Link href="/contact">Contact Us</Link>
+            <Link href="#">Contact Us</Link>
           </li>
           <li className="relative group">
             <button className="dropbtn">Language</button>
