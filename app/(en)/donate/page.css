@@ -1,0 +1,104 @@
+:root{
+    --green: #009B0A;
+    --dark_blue: #3B4C65;
+    --red: red;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+h2{
+    color: var(--green);
+    margin-bottom: 0;
+    font-size: 36px;
+}
+/* h1{
+    color: var(--green);
+    margin-bottom: 25px;
+    font-weight: 900px;
+    font-size: 36px;
+    margin-top: 2%;
+} */
+p{
+    margin: 10;
+    color: var(--dark_blue);
+}
+.atauka{
+    width: 67%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 30px;
+}
+.support{
+    padding: 10px;
+    background-image: url('/images/donation(cutted).jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.blue{
+    position:absolute;
+    width: 100%;
+    height: 72%;
+    background-color: #0D2853; 
+    opacity: 0.9;
+    z-index: 2; /* Ensures overlay is behind content */
+}
+.content{
+    position: relative;
+    z-index: 3; /* Ensures text stays above the overlay */
+}
+.support p{
+    color: white;
+}
+.donation-info {
+    display: block;
+}
+.donation-info p {
+    display: inline-block;
+    margin: 0; 
+    max-width: 20%; 
+    text-align: left;
+    margin: 0 40px 20px;
+    vertical-align: top;
+}
+span{
+    color: var(--red);
+    font-weight: bold;
+}
+.encouragement_text{
+    width: 60%;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 1.5%;
+}
+.donation_options{
+    text-align: left;
+}
+.option_1{
+    background-color: var(--red);
+    width: 190px;
+    height: 56px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+img{
+    width: 44px;
+    height: 15px;
+    display: inline-block;
+    margin: 0%;
+    padding-top: 5px;
+}
+h4{
+    display: inline-block;
+    margin: 0%;
+    padding-left: 20px;
+    font-size: 20px;
+}
