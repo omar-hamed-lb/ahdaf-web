@@ -28,24 +28,23 @@ export default function Page() {
 
           {/* Three Benefits */}
           <div className="flex flex-col md:flex-row gap-14 text-white mt-6 text-left px-10">
-            <p className="flex-1">
-              <span className="font-bold text-[#FF0000]">1.</span> Empowerment
-              through education: Your generosity helps provide essential
-              resources, scholarships, and educational programs that empower
-              students to reach their full potential.
-            </p>
-            <p className="flex-1">
-              <span className="font-bold text-[#FF0000]">2.</span> Community
-              development: Every donation contributes to community initiatives
-              that foster growth, resilience, and sustainability, ensuring that
-              the benefits extend beyond the classroom.
-            </p>
-            <p className="flex-1">
-              <span className="font-bold text-[#FF0000]">3.</span> A lasting
-              impact: With your help, we can create lasting change that
-              resonates through generations, transforming lives and uplifting
-              entire communities.
-            </p>
+            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#FF0000] marker:font-bold">
+              <li className="flex-1">
+                Empowerment through education: Your generosity helps provide
+                essential resources, scholarships, and educational programs that
+                empower students to reach their full potential.
+              </li>
+              <li className="flex-1">
+                Community development: Every donation contributes to community
+                initiatives that foster growth, resilience, and sustainability,
+                ensuring that the benefits extend beyond the classroom.
+              </li>
+              <li className="flex-1">
+                A lasting impact: With your help, we can create lasting change
+                that resonates through generations, transforming lives and
+                uplifting entire communities.
+              </li>
+            </ol>
           </div>
 
           <p className="mt-10 mx-auto max-w-[640px]">
