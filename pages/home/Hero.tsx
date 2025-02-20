@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative flex flex-col md:flex-row items-center justify-between text-white space-y-8  md:space-y-0">
         {/* Left Side - Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-green-500 leading-tight md:-mt-20 md:mb-10 mr-4">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-green-500 leading-tight md:mb-10 mr-4">
             EMPOWERING CHANGE <br className="hidden md:block" /> THROUGH GIVING
           </h1>
           <h2 className="text-sm sm:text-lg md:text-xl font-semibold text-red-500 mt-3 md:mt-4 md:mb-10 ">
