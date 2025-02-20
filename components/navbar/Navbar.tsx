@@ -56,7 +56,7 @@ export default function Navbar() {
           </li>
         </ul>
         <button className="bg-red-600 px-4 py-2 rounded hidden md:block">
-          Donate
+          <Link href="/donate">Donate</Link>
         </button>
         <button
           className="md:hidden"
