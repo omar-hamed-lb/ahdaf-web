@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Page() {
   return (
-    <div>
+    <div className="lg:container lg:mx-auto lg:text-lg">
       {/* Title Section */}
       <section className="flex flex-col items-center text-center mt-28">
         <h1 className="text-4xl font-bold text-[#009B0A]">ATA’UKA ALLAMANI</h1>
