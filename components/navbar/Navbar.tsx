@@ -80,9 +80,9 @@ export default function Navbar() {
       </nav>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-[#0b1c39] text-white p-4 space-y-4">
+        <div className="md:hidden bg-[#0b1c39] text-white p-4 space-y-4 fixed top-16 left-0 w-full z-50">
           <ul className="space-y-4">
-            <li>
+            <li onClick={() => setIsMenuOpen(false)}>
               <Link href="/">Home</Link>
             </li>
             <li className="relative group">
@@ -114,8 +114,11 @@ export default function Navbar() {
               </div>
             </li>
           </ul>
-          <button className="bg-red-600 px-4 py-2 rounded w-full ">
-            Donate
+          <button
+            className="bg-red-600 px-4 py-2 rounded w-full "
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <Link href="/donate">Donate</Link>
           </button>
         </div>
       )}
