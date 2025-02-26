@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function Page() {
   return (
     <div className="lg:container lg:mx-auto lg:text-lg">
@@ -67,7 +67,9 @@ export default function Page() {
         <div className="mt-8">
           <div className="bg-[#FF0000] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
             <h4 className="text-lg font-bold">Wish Money</h4>
-            <img
+            <Image
+              width={47}
+              height={17}
               src="/images/wish icon.png"
               alt="Wish Money"
               className="w-[47px] h-[17px] ml-2"
@@ -83,7 +85,9 @@ export default function Page() {
         <div className="mt-8">
           <div className="bg-[#7A7979] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
             <h4 className="text-lg font-bold">By Website</h4>
-            <img
+            <Image
+              width={30}
+              height={32}
               src="/images/global icon.png"
               alt="Global Giving"
               className="w-[30px] h-[32px] ml-8"
@@ -110,7 +114,9 @@ export default function Page() {
         <div className="mt-8">
           <div className="bg-[#081E3D] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
             <h4 className="text-lg font-bold">By Bank</h4>
-            <img
+            <Image
+              width={34}
+              height={33}
               src="/images/bank icon.png"
               alt="Bank Transfer"
               className="w-[34px] h-[33px] ml-12"
@@ -151,7 +157,9 @@ export default function Page() {
         <div className="mt-8">
           <div className="bg-[#009B0A] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
             <h4 className="text-lg font-bold">By Cash</h4>
-            <img
+            <Image
+              width={30}
+              height={31}
               src="/images/$ icon.png"
               alt="Bank Transfer"
               className="w-[30px] h-[31px] ml-12"
