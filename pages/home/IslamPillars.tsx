@@ -11,7 +11,7 @@ export default function IslamPillars() {
           <h2 className="text-3xl font-bold text-green-500">
             PILLARS OF ISLAM
           </h2>
-          <p className="text-white text-center mt-4 max-w-4xl text-lg lg:text-xl mx-auto px-5">
+          <p className="text-white text-center mt-4 max-w-4xl text-d lg:text-xl mx-auto px-5">
             The Pillars of Islam are the core principles and practices that
             structure the faith of a Muslim. They serve as a framework for
             worship and a guide to living a righteous life. These pillars
@@ -34,7 +34,7 @@ export default function IslamPillars() {
               icon="sawm.svg"
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6 px-6 mt-8 text-white">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-12 px-6 md:px-1 mt-8 text-white">
             <Pillar
               name="Zakat"
               description="The act of giving a portion of one’s wealth to help those in need."
@@ -65,7 +65,7 @@ export function Pillar({
   icon: string;
   minHeight?: number;
 }) {
-  const min = minHeight ? `min-h-[${minHeight}]` : "min-h-[120px]";
+  const min = `min-h-[${minHeight || 120}px]`;
   return (
     <div className="flex flex-col items-center text-white p-3 md:p-6 max-w-lg mx-auto rounded">
       <div className="flex-shrink-0 mb-2 min">
@@ -81,7 +81,7 @@ export function Pillar({
         <h3 className="text-xl lg:text-3xl font-bold text-green-500 mx-4 mb-4">
           {name}
         </h3>
-        <p>{description}</p>
+        <p className="mx-auto max-w-sm">{description}</p>
       </div>
     </div>
   );
