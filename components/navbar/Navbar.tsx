@@ -10,15 +10,15 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full bg-[#0b1c39] p-4 flex justify-between items-center text-white z-50">
+      <nav className="fixed top-0 w-full bg-[#08162E] p-4 flex justify-between items-center text-white z-50">
         <div className="text-xl font-bold">
           <Link href="/">
             <Image
-              src="/logos/logo.svg"
+              src="/logos/ahdaf_logo.svg"
               width={80}
-              height={80}
+              height={50}
               alt="Ahdaf Charity"
-              className="logo"
+              className="logo brightness-0 invert opacity-1"
             />
           </Link>
         </div>
