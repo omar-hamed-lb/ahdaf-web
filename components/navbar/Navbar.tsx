@@ -45,30 +45,82 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <ul className="hidden md:flex space-x-6 uppercase gap-12">
+        <ul className="hidden md:flex space-x-6 uppercase gap-12 font-medium">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" className="hover:text-green-500 transition-colors">
+              Home
+            </Link>
           </li>
           <li className="relative group">
-            <button className="uppercase">About Us</button>
-            <div className="absolute hidden group-hover:block bg-[#0b1c39] text-gray-100 p-4 rounded uppercase">
-              <Link href="/about/who-we-are">Who We Are?</Link>
-              <Link href="/about/annual-report">Annual Report</Link>
-              <Link href="/about/timeline">Timeline</Link>
+            <button className="flex items-center gap-1 hover:text-green-500 transition-colors uppercase">
+              About Us
+            </button>
+            <div className="absolute left-0 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 ease-in-out mt-2 bg-[#0b1c39] text-gray-100 rounded-md shadow-lg border border-gray-700 min-w-[200px] transform -translate-y-1 group-hover:translate-y-0">
+              <div className="py-2">
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  Who We Are?
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  Annual Report
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  Timeline
+                </Link>
+              </div>
             </div>
           </li>
           <li className="relative group">
-            <button className="uppercase">Our Programs</button>
-            <div className="absolute hidden group-hover:block bg-[#0b1c39] text-gray-100 p-4 rounded">
-              <Link href="/programs/program1">ESHRAQAT ELEM</Link>
-              <Link href="/programs/program2">ALEMNI FOUNDATION</Link>
-              <Link href="/programs/program3">ESHRAQA ACADEMY</Link>
-              <Link href="/programs/program4">AHDAF SCHOOL </Link>
-              <Link href="/programs/program5">AHDAF SCHOOL</Link>
+            <button className="flex items-center gap-1 hover:text-green-500 transition-colors">
+              OUR PROGRAMS
+            </button>
+            <div className="absolute left-0 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 ease-in-out mt-2 bg-[#0b1c39] text-gray-100 rounded-md shadow-lg border border-gray-700 min-w-[200px] transform -translate-y-1 group-hover:translate-y-0">
+              <div className="py-2">
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  ESHRAQAT ELEM
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  ALEMNI FOUNDATION
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  ESHRAQA ACADEMY
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  AHDAF SCHOOL
+                </Link>
+                <Link
+                  href="#"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                >
+                  AJWAD CENTER
+                </Link>
+              </div>
             </div>
           </li>
           <li>
-            <Link href="#">ZAKAT & SADAKA</Link>
+            <Link href="#" className="hover:text-green-500 transition-colors">
+              ZAKAT & SADAKA
+            </Link>
           </li>
         </ul>
         <button className="bg-red-600 px-4 py-2 rounded hidden md:block">
