@@ -3,10 +3,33 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import "./header.css";
+
+function DiractionIcon() {
+  return (
+    <svg
+      width={20}
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  );
+}
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
+  const toggleDropdown = (menu: string) => {
+    setActiveDropdown(activeDropdown === menu ? null : menu);
+  };
 
   return (
     <>
@@ -27,16 +50,16 @@ export default function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li className="relative group">
-            <button className="dropbtn uppercase">About Us</button>
-            <div className="dropdown-content absolute hidden group-hover:block bg-[#0b1c39] text-gray-100 p-4 rounded uppercase">
+            <button className="uppercase">About Us</button>
+            <div className="absolute hidden group-hover:block bg-[#0b1c39] text-gray-100 p-4 rounded uppercase">
               <Link href="/about/who-we-are">Who We Are?</Link>
               <Link href="/about/annual-report">Annual Report</Link>
               <Link href="/about/timeline">Timeline</Link>
             </div>
           </li>
           <li className="relative group">
-            <button className="dropbtn uppercase">Our Programs</button>
-            <div className="dropdown-content absolute hidden group-hover:block bg-[#0b1c39] text-gray-100 p-4 rounded">
+            <button className="uppercase">Our Programs</button>
+            <div className="absolute hidden group-hover:block bg-[#0b1c39] text-gray-100 p-4 rounded">
               <Link href="/programs/program1">ESHRAQAT ELEM</Link>
               <Link href="/programs/program2">ALEMNI FOUNDATION</Link>
               <Link href="/programs/program3">ESHRAQA ACADEMY</Link>
@@ -78,42 +101,144 @@ export default function Navbar() {
         <div className="md:hidden bg-[#0b1c39] text-white p-4 space-y-4 fixed top-14 left-0 w-full z-50">
           <ul className="space-y-4">
             <li onClick={() => setIsMenuOpen(false)}>
-              <Link href="/">Home</Link>
+              <Link className="w-full block" href="/">
+                Home
+              </Link>
             </li>
-            <li className="relative group">
-              <button className="dropbtn">About Us</button>
-              <div className="dropdown-content bg-[#0b1c39] text-white p-4 rounded">
-                <Link href="#">Who We Are?</Link>
-                <Link href="#">Annual Report</Link>
-                <Link href="#">Timeline</Link>
-              </div>
+            <li className="relative">
+              <button
+                className="w-full text-left flex justify-between items-center"
+                onClick={() => toggleDropdown("about")}
+              >
+                ABOUT US
+                <span
+                  className={`transform transition-transform ${
+                    activeDropdown === "about" ? "rotate-180" : ""
+                  }`}
+                >
+                  <DiractionIcon />
+                </span>
+              </button>
+              {activeDropdown === "about" && (
+                <div className="bg-[#0b1c39] text-white p-4 rounded flex flex-col space-y-4">
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    WHO WE ARE?
+                  </Link>
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    ANNUAL REPORT
+                  </Link>
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    TIMELINE
+                  </Link>
+                </div>
+              )}
             </li>
-            <li className="relative group">
-              <button className="dropbtn">Our Programs</button>
-              <div className="dropdown-content bg-[#0b1c39] text-white p-4 rounded">
-                <Link href="#">Program 1</Link>
-                <Link href="#">Program 2</Link>
-                <Link href="#">Program 3</Link>
-                <Link href="#">Program 4</Link>
-                <Link href="#">Program 5</Link>
-              </div>
+            <li className="relative">
+              <button
+                className="w-full text-left flex justify-between items-center"
+                onClick={() => toggleDropdown("programs")}
+              >
+                OUR PROGRAMS
+                <span
+                  className={`transform transition-transform ${
+                    activeDropdown === "programs" ? "rotate-180" : ""
+                  }`}
+                >
+                  <DiractionIcon />
+                </span>
+              </button>
+              {activeDropdown === "programs" && (
+                <div className="bg-[#0b1c39] text-white p-4 rounded flex flex-col space-y-4">
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    ESHRAQAT ELEM
+                  </Link>
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    ALEMNI FOUNDATION
+                  </Link>
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    ESHRAQA ACADEMY
+                  </Link>
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    AHDAF SCHOOL
+                  </Link>
+                  <Link
+                    className="w-full block"
+                    href="#"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    AJWAD CENTER
+                  </Link>
+                </div>
+              )}
             </li>
             <li>
-              <Link href="#">Contact Us</Link>
+              <Link
+                className="w-full block"
+                href="#"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                ZAKAT & SADAKA
+              </Link>
             </li>
-            <li className="relative group">
-              <button className="dropbtn">Language</button>
-              <div className="dropdown-content bg-[#0b1c39] text-white p-4 rounded">
-                <Link href="#">Arabic</Link>
-                <Link href="#">English</Link>
-              </div>
-            </li>
+            {/* <li className="relative">
+              <button
+                className="w-full text-left flex justify-between items-center"
+                onClick={() => toggleDropdown("language")}
+              >
+                Language
+                <span
+                  className={`transform transition-transform ${
+                    activeDropdown === "language" ? "rotate-180" : ""
+                  }`}
+                >
+                  <DiractionIcon />
+                </span>
+              </button>
+              {activeDropdown === "language" && (
+                <div className="bg-[#0b1c39] text-white p-4 rounded flex flex-col space-y-4">
+                  <Link href="/ar" onClick={() => setIsMenuOpen(false)}>
+                    Arabic
+                  </Link>
+                  <Link href="/" onClick={() => setIsMenuOpen(false)}>
+                    English
+                  </Link>
+                </div>
+              )}
+            </li> */}
           </ul>
           <button
-            className="bg-red-600 px-4 py-2 rounded w-full"
+            className="bg-red-600 px-4 py-2 rounded w-full uppercase"
             onClick={() => setIsMenuOpen(false)}
           >
-            <Link className="w-full upercase" href="/donate">
+            <Link className="w-full block" href="/donate">
               DONATE
             </Link>
           </button>
