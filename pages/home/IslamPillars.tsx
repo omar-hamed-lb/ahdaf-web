@@ -68,7 +68,7 @@ export function Pillar({
   const min = minHeight ? `min-h-[${minHeight}px]` : "min-h-[115px]";
 
   return (
-    <div className="flex flex-col items-center text-white p-3 md:p-6 max-w-lg mx-auto rounded">
+    <div className="flex flex-col items-center text-white p-3 md:p-6 max-w-lg mx-auto rounded max-w-lg">
       <div className="flex-shrink-0 mb-2 min">
         <Image
           className={`mx-auto ${min}`}
