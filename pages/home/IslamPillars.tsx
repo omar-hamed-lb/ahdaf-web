@@ -58,14 +58,15 @@ export function Pillar({
   name,
   description,
   icon,
-  minHeight = 120,
+  minHeight,
 }: {
   name: string;
   description: string;
   icon: string;
   minHeight?: number;
 }) {
-  const min = `min-h-[${minHeight || 120}px]`;
+  const min = minHeight ? `min-h-[${minHeight}px]` : "min-h-[115px]";
+
   return (
     <div className="flex flex-col items-center text-white p-3 md:p-6 max-w-lg mx-auto rounded">
       <div className="flex-shrink-0 mb-2 min">
@@ -81,7 +82,7 @@ export function Pillar({
         <h3 className="text-xl lg:text-3xl font-bold text-green-500 mx-4 mb-4">
           {name}
         </h3>
-        <p className="mx-auto max-w-sm">{description}</p>
+        <p className="mx-auto max-w-sm lg:text-lg">{description}</p>
       </div>
     </div>
   );
