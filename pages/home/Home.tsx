@@ -20,7 +20,7 @@ export default function Home() {
         <HomePrograms />
         <Seperator color="blue" forg_color="white" />
         <IslamPillars />
-        <Seperator color="white" forg_color="#132b4f" />
+        <Seperator color="white" forg_color="#183966" />
       </main>
     </>
   );

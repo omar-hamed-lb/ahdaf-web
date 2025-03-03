@@ -6,11 +6,9 @@ export default function IslamPillars() {
       style={{ backgroundImage: "url('/backgrounds/pillars_bg.png')" }}
     >
       <div className="lg:container mx-auto">
-        <div className="absolute inset-0 bg-[#0B2041] opacity-90"></div>
+        <div className="absolute inset-0 bg-cblue opacity-90"></div>
         <div className="relative z-10">
-          <h2 className="text-3xl font-bold text-green-500">
-            PILLARS OF ISLAM
-          </h2>
+          <h2 className="text-3xl font-bold text-cgreen">PILLARS OF ISLAM</h2>
           <p className="text-white text-center mt-4 max-w-4xl text-d lg:text-xl mx-auto px-5">
             The Pillars of Islam are the core principles and practices that
             structure the faith of a Muslim. They serve as a framework for
@@ -79,7 +77,7 @@ export function Pillar({
         />
       </div>
       <div className="text-center">
-        <h3 className="text-xl lg:text-3xl font-bold text-green-500 mx-4 mb-4">
+        <h3 className="text-2xl lg:text-3xl font-bold text-cgreen mx-4 mb-4">
           {name}
         </h3>
         <p className="mx-auto max-w-sm lg:text-lg">{description}</p>

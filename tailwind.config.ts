@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        cblue2: "#081C32",
+        cblue: "#102F5C",
+        cgreen: "#28C76F",
+        cwhite: "#F5F5F5",
+        cbrown: "#D9B08C",
+        cgray: "#B2BEC3",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)"],
+        kanit: ["var(--font-kanit)"],
+        onset: ["var(--font-onset)"],
       },
     },
   },

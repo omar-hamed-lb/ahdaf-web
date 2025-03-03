@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function HomePrograms() {
   return (
     <section className="py-16 text-center bg-white px-4 lg:container mx-auto">
-      <h2 className="text-3xl font-bold text-green-500">OUR PROGRAMS</h2>
-      <p className="text-black text-center mt-4 max-w-4xl mx-auto text-lg lg:text-xl">
+      <h2 className="text-3xl font-bold text-cgreen">OUR PROGRAMS</h2>
+      <p className="text-black text-center mt-4 max-w-4xl mx-auto text-d lg:text-xl">
         All the coordinated set of activities, projects, or services carried out
         by AHDAF organization to support educational needs.
       </p>
@@ -61,7 +61,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
   goto,
 }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col gap-4 w-full max-w-lg transition-transform duration-300 hover:scale-105 mx-auto mb-10">
+    <div className="bg-cwhite rounded-2xl shadow-lg p-6 flex flex-col gap-4 w-full max-w-lg transition-transform duration-300 hover:scale-105 mx-auto mb-10">
       <div className="flex flex-1 flex-row justify-between items-center gap-4">
         <div className="flex flex-col space-y-2 flex-grow">
           <h3 className="text-xl font-bold text-gray-900">{title}</h3>

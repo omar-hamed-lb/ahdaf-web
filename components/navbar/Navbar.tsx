@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full bg-[#08162E] p-4 flex justify-between items-center text-white z-50 uppercase ">
+      <nav className="fixed top-0 w-full bg-cblue p-4 flex justify-between items-center text-white z-50 uppercase ">
         <div className="text-xl font-bold">
           <Link href="/">
             <Image
@@ -47,39 +47,34 @@ export default function Navbar() {
         </div>
         <ul className="hidden md:flex space-x-6 uppercase gap-12 font-medium">
           <li>
-            <Link href="/" className="hover:text-green-500 transition-colors">
+            <Link href="/" className="hover:text-cgreen transition-colors">
               Home
             </Link>
           </li>
           <li className="relative group">
-            <button className="flex items-center gap-1 hover:text-green-500 transition-colors uppercase">
+            <button className="flex items-center gap-1 hover:text-cgreen transition-colors uppercase">
               About Us
             </button>
             <div className="absolute left-0 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 ease-in-out mt-2 bg-[#0b1c39] text-gray-100 rounded-md shadow-lg border border-gray-700 min-w-[200px] transform -translate-y-1 group-hover:translate-y-0">
               <div className="py-2">
                 <Link
-                  href="#"
-                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                  href="/about"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors uppercase"
                 >
                   Who We Are?
                 </Link>
+
                 <Link
-                  href="#"
-                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
+                  href="/about/history"
+                  className="block px-4 py-2 hover:bg-gray-700 transition-colors uppercase"
                 >
-                  Annual Report
-                </Link>
-                <Link
-                  href="#"
-                  className="block px-4 py-2 hover:bg-gray-700 transition-colors"
-                >
-                  Timeline
+                  Our History
                 </Link>
               </div>
             </div>
           </li>
           <li className="relative group">
-            <button className="flex items-center gap-1 hover:text-green-500 transition-colors">
+            <button className="flex items-center gap-1 hover:text-cgreen transition-colors">
               OUR PROGRAMS
             </button>
             <div className="absolute left-0 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 ease-in-out mt-2 bg-[#0b1c39] text-gray-100 rounded-md shadow-lg border border-gray-700 min-w-[200px] transform -translate-y-1 group-hover:translate-y-0">
@@ -118,7 +113,7 @@ export default function Navbar() {
             </div>
           </li>
           <li>
-            <Link href="#" className="hover:text-green-500 transition-colors">
+            <Link href="#" className="hover:text-cgreen transition-colors">
               ZAKAT & SADAKA
             </Link>
           </li>
@@ -175,24 +170,18 @@ export default function Navbar() {
                 <div className="bg-[#0b1c39] text-white p-4 rounded flex flex-col space-y-4">
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/about"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     WHO WE ARE?
                   </Link>
+
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/about/history"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    ANNUAL REPORT
-                  </Link>
-                  <Link
-                    className="w-full block"
-                    href="#"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    TIMELINE
+                    OUR HISTORY
                   </Link>
                 </div>
               )}

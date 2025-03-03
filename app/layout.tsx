@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Kanit } from "next/font/google";
+import { Kanit, Onest } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 const kanit = Kanit({
   weight: ["300", "400", "500", "600", "700"],
@@ -8,6 +8,12 @@ const kanit = Kanit({
   variable: "--font-kanit",
 });
 
+const onset = Onest({
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-onset",
+});
 export const metadata: Metadata = {
   title: "Ahdaf",
   description: "Ahdaf website",
@@ -38,7 +44,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${kanit.variable} font-sans antialiased`}>
+      <body
+        className={`${kanit.variable} ${onset.variable} font-kanit antialiased`}
+      >
         {children}
       </body>
       <GoogleAnalytics gaId="G-X6HY8D5F8T" />

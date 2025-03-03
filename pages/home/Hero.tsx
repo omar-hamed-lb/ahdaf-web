@@ -12,7 +12,7 @@ const Hero = () => {
       style={{ backgroundImage: "url('/backgrounds/hero_bg.png')" }}
     >
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-[#0C2348] opacity-90"></div>
+      <div className="absolute inset-0 bg-cblue opacity-90"></div>
 
       {/* Content Wrapper */}
       <div className="relative flex flex-col md:flex-row items-center justify-between text-white space-y-8  md:space-y-0">
@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-gray-100 leading-tight md:mb-10 mr-4">
             EMPOWERING CHANGE <br className="hidden md:block" /> THROUGH GIVING
           </h1>
-          <h2 className="text-xl lg:text-2xl font-bold text-[#009B0A] mt-3 md:mt-4 md:mb-10 ">
+          <h2 className="text-xl lg:text-2xl font-bold text-cgreen mt-3 md:mt-4 md:mb-10 ">
             AHDAF CHARITY ENDOWMENT
           </h2>
           <p className="mt-3 md:mt-4 text-d md:text-2xl text-gray-100 leading-relaxed mb-4 mr-4">

@@ -5,7 +5,7 @@ export default function Seperator({
   color: string;
   forg_color: string;
 }) {
-  const bg_color = color === "white" ? "bg-white" : "bg-[#132b4f]";
+  const bg_color = color === "white" ? "bg-white" : "bg-[#183966]";
 
   return (
     <div className={`${bg_color} overflow-hidden`}>

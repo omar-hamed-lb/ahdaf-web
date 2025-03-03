@@ -1,11 +1,10 @@
-"use client";
 export default function Impact() {
   return (
-    <section className="py-16 text-center  bg-[#08162E]">
-      <div className="lg:container mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center">
+    <section className="py-16 bg-cblue">
+      <div className="lg:container text-center lg:text-left mx-auto">
+        <h2 className="text-3xl lg:text-4xl font-bold md:ml-16">
           OUR IMPACT
-          <span className="text-xl text-red-500 pl-3 block md:inline">
+          <span className="text-xl text-cbrown pl-3 block md:inline">
             2020-2025
           </span>
         </h2>
