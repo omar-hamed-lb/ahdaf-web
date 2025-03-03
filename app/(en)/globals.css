@@ -8,7 +8,7 @@ body,
 }
 @layer utilities {
   .stroke-text {
-    -webkit-text-stroke: 2px var(--cgreen); /* Green stroke */
+    -webkit-text-stroke: 2px #28c76f; /* Green stroke */
     color: transparent;
   }
   .stroke-text-white {

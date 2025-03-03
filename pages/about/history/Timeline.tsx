@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
 
 type Achievement = {
   year: number;
@@ -18,7 +17,7 @@ export default function Timeline({ achievements }: TimelineProps) {
       {/* Main timeline line that spans the entire container */}
       <div className="absolute left-1/4 ml-4 top-8 bottom-8 w-0.5 bg-white "></div>
 
-      {achievements.map((achievement, index) => (
+      {achievements?.map((achievement, index) => (
         <TimelineItem key={index} achievement={achievement} />
       ))}
     </div>
