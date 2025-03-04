@@ -78,16 +78,16 @@ export default function About() {
           OUR PROGRAMS
         </h2>
         <div className="mt-6 mx-auto text-center flex flex-col md:flex-row flex-1 gap-4 justify-center">
-          <Program title="Eshraqa" logo="/logos/Eshraqa-logo.png" />
+          <Program title="Eshraqa" logo="/logos/Eshraqa-logo.svg" />
           <Program
             title="Ahdaf"
-            logo="/logos/ahdaf-school-logo.png"
-            width={60}
-            height={60}
+            logo="/logos/ahdaf-school-logo.svg"
+            width={80}
+            height={80}
           />
-          <Program title="Alemni" logo="/logos/Alemni-logo.png" />
-          <Program title="Eshraqet Elem" logo="/logos/isharket-elem-logo.png" />
-          <Program title="Ahdaf" logo="/logos/ajwad-logo.png" />
+          <Program title="Alemni" logo="/logos/Alemni-logo.svg" />
+          <Program title="Eshraqet Elem" logo="/logos/isharket-elem-logo.svg" />
+          <Program title="Ajwad" logo="/logos/ajwad-logo.svg" />
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ export default function History() {
           achievements={[
             {
               year: 2012,
-              title: "LAUNCH OF Alemni Foundation",
+              title: "Launch of Alemni Foundation",
               description:
                 "Our journey began with a vision to elevate educational standards and cultivate a culture of growth. By investing in the youth, we aim to nurture proactive leaders capable of uplifting their communities and addressing societal challenges. Our initiatives focus on shaping a generation that not only excels academically but also contributes significantly to their community’s progress. ",
             },
@@ -57,7 +57,7 @@ export default function History() {
               year: 2023,
               title: "Eshraqat Elem Independent Vision",
               description:
-                "In 2024, Eshraqat Elem emerged as a visionary initiative with its own strategy and objectives. By focusing on academic support and technical skill development, it empowers high school students from both public and private schools in Northern Lebanon. With their enhanced competencies, students from Eshraqat Elem are prepared to thrive in an ever-evolving world.",
+                "In 2023, Eshraqat Elem emerged as a visionary initiative with its own strategy and objectives. By focusing on academic support and technical skill development, it empowers high school students from both public and private schools in Northern Lebanon. With their enhanced competencies, students from Eshraqat Elem are prepared to thrive in an ever-evolving world.",
             },
             {
               year: 2024,

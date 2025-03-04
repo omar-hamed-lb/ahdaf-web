@@ -38,7 +38,7 @@ export default function Navbar() {
           <Link href="/">
             <Image
               src="/logos/ahdaf_logo.svg"
-              width={80}
+              width={100}
               height={50}
               alt="Ahdaf Charity"
               className="logo brightness-0 invert opacity-1"
@@ -145,7 +145,7 @@ export default function Navbar() {
       </nav>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-[#0b1c39] text-white p-4 space-y-4 fixed top-14 left-0 w-full z-50">
+        <div className="md:hidden bg-cblue text-white p-4 space-y-4 fixed top-14 left-0 w-full z-50">
           <ul className="space-y-4">
             <li onClick={() => setIsMenuOpen(false)}>
               <Link className="w-full block" href="/">
@@ -167,7 +167,7 @@ export default function Navbar() {
                 </span>
               </button>
               {activeDropdown === "about" && (
-                <div className="bg-[#0b1c39] text-white p-4 rounded flex flex-col space-y-4">
+                <div className="bg-cblue text-white p-4 rounded flex flex-col space-y-4">
                   <Link
                     className="w-full block"
                     href="/about"
@@ -201,7 +201,7 @@ export default function Navbar() {
                 </span>
               </button>
               {activeDropdown === "programs" && (
-                <div className="bg-[#0b1c39] text-white p-4 rounded flex flex-col space-y-4">
+                <div className="bg-cblue text-white p-4 rounded flex flex-col space-y-4">
                   <Link
                     className="w-full block"
                     href="#"

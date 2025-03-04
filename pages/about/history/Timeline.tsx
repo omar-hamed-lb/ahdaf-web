@@ -58,18 +58,18 @@ function TimelineItem({ achievement }: { achievement: Achievement }) {
 
       {/* Right column: Title and description */}
       <div className="w-3/4 pl-4 text-left">
-        <div className="p-4 rounded-lg transition-colors duration-300 ease-in-out">
+        <div className="p-4 md:pl-20 rounded-lg transition-colors duration-300 ease-in-out">
           <h3
             className={
               hovered
-                ? "text-lg font-semibold text-cgreen"
-                : "text-lg font-semibold"
+                ? "text-lg md:text-xl font-semibold text-cgreen md:pb-2"
+                : "text-lg md:text-xl font-semibold"
             }
           >
             {achievement.title}
           </h3>
           {hovered && (
-            <p className="mt-2 max-w-2xl text-gray-300 text-d text-justify">
+            <p className="mt-2 max-w-2xl text-cwhite md:text-lg text-justify">
               {achievement.description}
             </p>
           )}
