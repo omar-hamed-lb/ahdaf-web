@@ -9,7 +9,7 @@ export default function History() {
       <div className="absolute inset-0 bg-[#0D2853] opacity-95"></div>
       <div className="relative z-10 text-white text-center p-6">
         <h2 className="text-3xl font-bold text-cgreen block">OUR HISTORY</h2>
-        <div className="mt-6 mx-auto max-w-7xl text-justify lg:text-center lg:text-lg">
+        <div className="mt-6 mx-auto max-w-7xl text-justify lg:text-center md:text-lg xl:text-xl">
           Since 2012, Ahdaf Charity Endowment has been steadfast in addressing
           the pressing challenges in Northern Lebanon, particularly in education
           and community development. Recognizing the region’s struggles across
@@ -70,7 +70,7 @@ export default function History() {
         <h2 className="text-3xl font-bold text-cgreen block my-8 uppercase">
           Ahdaf Charity Endowment Today
         </h2>
-        <div className="mt-6 mx-auto max-w-7xl text-justify lg:text-center lg:text-lg">
+        <div className="mt-6 mx-auto max-w-7xl text-justify lg:text-center md:text-lg xl:text-xl">
           Through these milestones, Ahdaf Charity Endowment has consistently
           demonstrated its unwavering dedication to educational excellence and
           community empowerment in Northern Lebanon. Guided by a clear vision

@@ -65,7 +65,9 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
       <div className="flex flex-1 flex-row justify-between items-center gap-4">
         <div className="flex flex-col space-y-2 flex-grow">
           <h3 className="text-xl font-bold text-gray-900">{title}</h3>
-          <p className="text-md lg:text-lg text-gray-700">{description}</p>
+          <p className="text-md md:text-lg xl:text-xl text-gray-700 text-justify">
+            {description}
+          </p>
         </div>
         <div className="flex-shrink-0">
           <Image

@@ -29,7 +29,7 @@ function TimelineItem({ achievement }: { achievement: Achievement }) {
 
   return (
     <div
-      className="relative flex items-center py-8 md:min-h-[245px]"
+      className="relative flex items-center py-8 md:min-h-[180px]"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -69,7 +69,7 @@ function TimelineItem({ achievement }: { achievement: Achievement }) {
             {achievement.title}
           </h3>
           {hovered && (
-            <p className="mt-2 max-w-2xl text-cwhite md:text-lg text-justify">
+            <p className="mt-2 max-w-2xl text-cwhite md:text-lg xl:text-xl text-justify">
               {achievement.description}
             </p>
           )}

@@ -80,7 +80,7 @@ export function Pillar({
         <h3 className="text-2xl lg:text-3xl font-bold text-cgreen mx-4 mb-4">
           {name}
         </h3>
-        <p className="mx-auto max-w-sm lg:text-lg">{description}</p>
+        <p className="mx-auto max-w-sm md:text-lg xl:text-xl">{description}</p>
       </div>
     </div>
   );

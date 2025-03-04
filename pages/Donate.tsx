@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Donate() {
   return (
-    <div className="lg:container lg:mx-auto lg:text-lg">
+    <div className="2xl:container lg:mx-auto md:text-lg xl:text-xl">
       {/* Title Section */}
       <section className="flex flex-col items-center text-center mt-24">
         <h1 className="text-3xl mb-6 font-bold text-cgreen">
           ATA’UKA ALLAMANI
         </h1>
-        <p className="w-[90%] max-w-4xl mx-auto text-[#081E3D] mb-8 text-justify lg:text-center lg:text-lg">
+        <p className="w-[90%] max-w-4xl mx-auto text-[#081E3D] mb-8 text-justify lg:text-center md:text-lg xl:text-xl">
           Your donation to Ahdaf Charity Endowment will play a crucial role in
           shaping a brighter future for students and their communities. By
           contributing, you are not just giving money; you are investing in the
@@ -30,7 +30,7 @@ export default function Donate() {
 
           {/* Three Benefits */}
           <div className="flex flex-col md:flex-row gap-14 text-white mt-6 text-left px-10">
-            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#FF0000] marker:font-bold lg:text-lg ">
+            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#FF0000] marker:font-bold md:text-lg xl:text-xl ">
               <li className="flex-1">
                 Empowerment through education: Your generosity helps provide
                 essential resources, scholarships, and educational programs that
@@ -49,7 +49,7 @@ export default function Donate() {
             </ol>
           </div>
 
-          <p className="mt-10 mx-auto max-w-[640px] text-justify lg:text-center lg:text-lg">
+          <p className="mt-10 mx-auto max-w-[640px] text-justify lg:text-center md:text-lg xl:text-xl">
             Join us in our mission to create opportunities and inspire hope.
             Your contribution today can make all the difference in the world for
             those who need it most. Together, we can build a future filled with

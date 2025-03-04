@@ -36,7 +36,7 @@ export default function About() {
       <div className="absolute inset-0 bg-[#0D2853] opacity-90"></div>
       <div className="relative z-10 text-white text-center p-6">
         <h2 className="text-3xl font-bold text-cgreen block">ABOUT US</h2>
-        <div className="mt-6 mx-auto max-w-[640px] text-justify lg:text-center lg:text-lg">
+        <div className="mt-6 mx-auto max-w-[640px] text-justify lg:text-center md:text-lg xl:text-xl">
           We are a diverse group of individuals from Northern Lebanon
           -educators, businessmen and professionals from diverse fields- united
           by a shared vision to create meaningful change in our community and
@@ -49,7 +49,7 @@ export default function About() {
             <h3 className="text-2xl font-bold text-cbrown  block text-center">
               OUR MISSION
             </h3>
-            <p className="text-justify lg:text-center lg:text-lg max-w-lg mx-auto">
+            <p className="text-justify lg:text-center md:text-lg xl:text-xl max-w-lg mx-auto">
               We work together through volunteering and institution-building to
               make Northern Lebanon—its people, values, economy, environment,
               and infrastructure—a source of inspiration for the world.
@@ -59,7 +59,7 @@ export default function About() {
             <h3 className="text-2xl font-bold text-cbrown  block text-center">
               OUR VISION
             </h3>
-            <p className="text-justify lg:text-center lg:text-lg max-w-sm mx-auto">
+            <p className="text-justify lg:text-center md:text-lg xl:text-xl max-w-sm mx-auto">
               We develop the individual to develop the world
               <br /> . نطور الانسان ليطور العالم
             </p>
@@ -68,7 +68,7 @@ export default function About() {
             <h3 className="text-2xl font-bold text-cbrown  block text-center">
               OUR VALUES
             </h3>
-            <p className="text-justify lg:text-center lg:text-lg max-w-sm mx-auto">
+            <p className="text-justify lg:text-center md:text-lg xl:text-xl max-w-sm mx-auto">
               Transparency - Contemporary - Excellence - Care - Reform.
             </p>
           </div>
