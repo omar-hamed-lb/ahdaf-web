@@ -48,6 +48,8 @@ export default function IslamPillars() {
           </div>
         </div>
       </div>
+      <div className="w-full h-[124.71px] absolute z-10 bg-[#183966] blur-lg "></div>
+
     </section>
   );
 }

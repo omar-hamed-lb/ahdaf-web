@@ -9,11 +9,10 @@ export default function Donate() {
           ATA’UKA ALLAMANI
         </h1>
         <p className="w-[90%] max-w-4xl mx-auto text-[#081E3D] mb-8 text-justify lg:text-center md:text-lg xl:text-xl">
-          Your donation to Ahdaf Charity Endowment will play a crucial role in
-          shaping a brighter future for students and their communities. By
-          contributing, you are not just giving money; you are investing in the
-          dreams and aspirations of those who seek a better life through
-          education and support.
+        As we welcome the holy month of Ramadan, Ahdaf Charity Endowment calls 
+        on you to be part of a life-changing mission – Ata’uka Allamani Campaign. 
+        This urgent initiative aims to collect zakat and sadaqat to support over 
+        500 students in Lebanon, including both children and university students.
         </p>
       </section>
 
@@ -30,7 +29,7 @@ export default function Donate() {
 
           {/* Three Benefits */}
           <div className="flex flex-col md:flex-row gap-14 text-white mt-6 text-left px-10">
-            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#FF0000] marker:font-bold md:text-lg xl:text-xl ">
+            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#D9B08C] marker:font-bold md:text-lg xl:text-xl ">
               <li className="flex-1">
                 Empowerment through education: Your generosity helps provide
                 essential resources, scholarships, and educational programs that
@@ -49,7 +48,7 @@ export default function Donate() {
             </ol>
           </div>
 
-          <p className="mt-10 mx-auto max-w-[640px] text-justify lg:text-center md:text-lg xl:text-xl">
+          <p className="mt-10 mx-auto max-w-[800px] text-justify lg:text-center md:text-lg xl:text-xl">
             Join us in our mission to create opportunities and inspire hope.
             Your contribution today can make all the difference in the world for
             those who need it most. Together, we can build a future filled with
@@ -114,7 +113,7 @@ export default function Donate() {
 
           {/* By Bank */}
           <div className="mt-8">
-            <div className="bg-[#081E3D] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
+            <div className="bg-[#102F5C] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
               <h4 className="text-lg font-bold">By Bank</h4>
               <Image
                 width={34}
@@ -157,7 +156,7 @@ export default function Donate() {
 
           {/* By Cash */}
           <div className="mt-8">
-            <div className="bg-[#009B0A] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
+            <div className="bg-[#28C76F] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
               <h4 className="text-lg font-bold">By Cash</h4>
               <Image
                 width={30}
