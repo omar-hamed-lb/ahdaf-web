@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function HomePrograms() {
   return (
-    <section className="py-16 text-center bg-white px-4">
-      <h2 className="text-3xl font-bold text-green-500">OUR PROGRAMS</h2>
-      <p className="text-black text-center mt-4 max-w-4xl mx-auto text-xl">
+    <section className="py-16 text-center bg-white px-4 lg:container mx-auto">
+      <h2 className="text-3xl font-bold text-cgreen">OUR PROGRAMS</h2>
+      <p className="text-black text-center mt-4 max-w-4xl mx-auto text-d lg:text-xl">
         All the coordinated set of activities, projects, or services carried out
         by AHDAF organization to support educational needs.
       </p>
@@ -13,19 +13,19 @@ export default function HomePrograms() {
         <ProgramCard
           title="ESHRAQAT ELEM"
           description="Provides academic support and life coaching for high school students, guiding them in selecting university majors while enhancing their overall educational experience."
-          logo="/logos/isharket-elem-logo.png"
+          logo="/logos/isharket-elem-logo.svg"
           goto="#"
         />
         <ProgramCard
           title="ALEMNI FOUNDATION"
           description="Empowers university students through scholarships and development programs that enhance their life skills and values, fostering personal growth and community engagement."
-          logo="/logos/Alemni-logo.png"
+          logo="/logos/Alemni-logo.svg"
           goto="#"
         />
         <ProgramCard
           title="ESHRAQA ACADEMY"
           description="Focuses on reducing school dropout rates by providing retention support and recreational activities for children aged 8-14, promoting personal growth and community involvement."
-          logo="/logos/Eshraqa-logo.png"
+          logo="/logos/Eshraqa-logo.svg"
           goto="#"
         />
       </div>
@@ -33,13 +33,13 @@ export default function HomePrograms() {
         <ProgramCard
           title="AJWAD CENTER"
           description="Dedicated to improving school development through innovative educational practices, aiming to enhance the overall learning experience for students in Lebanon."
-          logo="/logos/ajwad-logo.png"
+          logo="/logos/ajwad-logo.svg"
           goto="#"
         />
         <ProgramCard
           title="AHDAF SCHOOL"
           description="Offers a nurturing educational environment that emphasizes active learning and strong values among students, utilizing modern teaching methods to foster creativity and critical thinking."
-          logo="/logos/ahdaf-school-logo.png"
+          logo="/logos/ahdaf-school-logo.svg"
           goto="#"
         />
       </div>
@@ -61,11 +61,13 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
   goto,
 }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col gap-4 w-full max-w-lg transition-transform duration-300 hover:scale-105 mx-auto mb-10">
+    <div className="bg-cwhite rounded-2xl shadow-lg p-6 flex flex-col gap-4 w-full max-w-lg transition-transform duration-300 hover:scale-105 mx-auto mb-10">
       <div className="flex flex-1 flex-row justify-between items-center gap-4">
         <div className="flex flex-col space-y-2 flex-grow">
           <h3 className="text-xl font-bold text-gray-900">{title}</h3>
-          <p className="text-lg text-gray-700">{description}</p>
+          <p className="text-md md:text-lg xl:text-xl text-gray-700 text-justify">
+            {description}
+          </p>
         </div>
         <div className="flex-shrink-0">
           <Image
