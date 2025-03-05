@@ -51,6 +51,7 @@ const InfoCard: React.FC<InfoCardProps> = ({ data }) => {
       {/* Right Side - Image with Overlay */}
       <div className="w-full md:w-1/2 flex justify-end">
       <img src="/images/Vector 22.png" className="w-[255.5px] h-[359.5px] absolute mt-[70px]" />
+      <img src="/images/mask2.svg" className="h-[508px] w-[466px] mt-[160px] mr-[22px] absolute z-10" />
           <div
             className="relative max-w-sm md:max-w-full h-[508px] w-[466px] mt-[160px] mr-[22px]"
             style={{
