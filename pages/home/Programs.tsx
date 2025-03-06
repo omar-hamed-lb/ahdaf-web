@@ -14,19 +14,19 @@ export default function HomePrograms() {
           title="ESHRAQAT ELEM"
           description="Provides academic support and life coaching for high school students, guiding them in selecting university majors while enhancing their overall educational experience."
           logo="/logos/isharket-elem-logo.svg"
-          goto="#"
+          goto="/programs/eshraqat-elem"
         />
         <ProgramCard
           title="ALEMNI FOUNDATION"
           description="Empowers university students through scholarships and development programs that enhance their life skills and values, fostering personal growth and community engagement."
           logo="/logos/Alemni-logo.svg"
-          goto="#"
+          goto="/programs/alemni"
         />
         <ProgramCard
           title="ESHRAQA ACADEMY"
           description="Focuses on reducing school dropout rates by providing retention support and recreational activities for children aged 8-14, promoting personal growth and community involvement."
           logo="/logos/Eshraqa-logo.svg"
-          goto="#"
+          goto="/programs/eshraqa"
         />
       </div>
       <div className="grid grid-cols-1 text-left md:grid-cols-2 gap-6 mt-8">
@@ -34,13 +34,13 @@ export default function HomePrograms() {
           title="AJWAD CENTER"
           description="Dedicated to improving school development through innovative educational practices, aiming to enhance the overall learning experience for students in Lebanon."
           logo="/logos/ajwad-logo.svg"
-          goto="#"
+          goto="/programs/ajwad"
         />
         <ProgramCard
           title="AHDAF SCHOOL"
           description="Offers a nurturing educational environment that emphasizes active learning and strong values among students, utilizing modern teaching methods to foster creativity and critical thinking."
           logo="/logos/ahdaf-school-logo.svg"
-          goto="#"
+          goto="/programs/ahdaf-school"
         />
       </div>
     </section>

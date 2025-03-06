@@ -5,13 +5,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
-interface SocialLink {
+export interface SocialLink {
   name: string;
   url: string;
-  icon: string;
+  icon: "linkedin" | "facebook" | "instagram" | "url";
 }
 
-interface InfoCardProps {
+export interface InfoCardProps {
   title: string;
   text: string;
   images: string[];
@@ -77,7 +77,11 @@ export default function InfoCard({
                 href={link.url}
                 className="flex items-center gap-2 text-gray-800 hover:text-cgreen"
               >
-                <img src={link.icon} alt={link.name} className="w-6 h-6" />
+                <img
+                  src={`/icons/${link.icon}.svg`}
+                  alt={link.name}
+                  className="w-8 h-8"
+                />
                 {link.name}
               </a>
             ))}

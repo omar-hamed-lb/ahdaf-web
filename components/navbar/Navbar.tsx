@@ -80,31 +80,31 @@ export default function Navbar() {
             <div className="absolute left-0 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 ease-in-out mt-2 bg-[#0b1c39] text-gray-100 rounded-md shadow-lg border border-gray-700 min-w-[200px] transform -translate-y-1 group-hover:translate-y-0">
               <div className="py-2">
                 <Link
-                  href="#"
+                  href="/programs/eshraqat-elem"
                   className="block px-4 py-2 hover:bg-gray-700 transition-colors"
                 >
                   ESHRAQAT ELEM
                 </Link>
                 <Link
-                  href="#"
+                  href="/programs/alemni"
                   className="block px-4 py-2 hover:bg-gray-700 transition-colors"
                 >
                   ALEMNI FOUNDATION
                 </Link>
                 <Link
-                  href="#"
+                  href="/programs/eshraqa"
                   className="block px-4 py-2 hover:bg-gray-700 transition-colors"
                 >
                   ESHRAQA ACADEMY
                 </Link>
                 <Link
-                  href="#"
+                  href="/programs/ahdaf-school"
                   className="block px-4 py-2 hover:bg-gray-700 transition-colors"
                 >
                   AHDAF SCHOOL
                 </Link>
                 <Link
-                  href="#"
+                  href="/programs/ajwad"
                   className="block px-4 py-2 hover:bg-gray-700 transition-colors"
                 >
                   AJWAD CENTER
@@ -204,35 +204,35 @@ export default function Navbar() {
                 <div className="bg-cblue text-white p-4 rounded flex flex-col space-y-4">
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/programs/eshraqat-elem"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     ESHRAQAT ELEM
                   </Link>
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/programs/alemni"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     ALEMNI FOUNDATION
                   </Link>
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/programs/eshraqa"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     ESHRAQA ACADEMY
                   </Link>
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/programs/ahdaf-school"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     AHDAF SCHOOL
                   </Link>
                   <Link
                     className="w-full block"
-                    href="#"
+                    href="/programs/ajwad"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     AJWAD CENTER
