@@ -14,17 +14,17 @@ export default function Page() {
     links: [
       {
         name: "Alemni – علّمني",
-        url: "#",
+        url: "https://www.facebook.com/Alemni.Ahdaf",
         icon: "facebook",
       },
       {
         name: "alemni_foundation",
-        url: "#",
+        url: "https://www.instagram.com/alemni_foundation/",
         icon: "instagram",
       },
       {
         name: "alemni foundation",
-        url: "#",
+        url: "https://www.linkedin.com/company/alemni-foundation/",
         icon: "linkedin",
       },
       {

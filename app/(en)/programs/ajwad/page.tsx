@@ -14,17 +14,17 @@ export default function Page() {
     links: [
       {
         name: "'المركز اللبناني لتطوير المدارس 'أجود",
-        url: "#",
+        url: "https://www.facebook.com/AjwadEducation/",
         icon: "facebook",
       },
       {
         name: "Ajwadeducation",
-        url: "#",
+        url: "https://www.instagram.com/ajwadeducation/",
         icon: "instagram",
       },
       {
         name: "Ajwad",
-        url: "#",
+        url: "https://www.linkedin.com/company/ajwad/",
         icon: "linkedin",
       },
       {

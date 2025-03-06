@@ -13,13 +13,13 @@ export default function Page() {
 
     links: [
       {
-        name: "Eshraqat-إشراقة ",
-        url: "#",
+        name: "Eshraqa-إشراقة ",
+        url: "https://www.facebook.com/Eshraqa.Ahdaf/",
         icon: "facebook",
       },
       {
         name: "Eshraqa.ahdaf",
-        url: "#",
+        url: "https://www.instagram.com/eshraqa.ahdaf/",
         icon: "instagram",
       },
     ],

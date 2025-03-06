@@ -14,17 +14,17 @@ export default function Page() {
     links: [
       {
         name: "مدرسة أهداف",
-        url: "#",
+        url: "https://www.facebook.com/AhdafSchool/",
         icon: "facebook",
       },
       {
         name: "Ahdafschool",
-        url: "#",
+        url: "https://www.instagram.com/ahdafschool/",
         icon: "instagram",
       },
       {
         name: "Ahdaf School",
-        url: "#",
+        url: "https://www.linkedin.com/company/ahdaf-school/",
         icon: "linkedin",
       },
       {

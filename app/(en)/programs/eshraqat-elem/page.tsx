@@ -14,12 +14,12 @@ export default function Page() {
     links: [
       {
         name: "Eshraqat Elem-إشراقة علم",
-        url: "#",
+        url: "https://www.facebook.com/share/1JNWfoKrvd/",
         icon: "facebook",
       },
       {
         name: "Eshraqatelem",
-        url: "#",
+        url: "https://www.instagram.com/eshraqatelem?igsh=cmVjMnp1cHVkaHg0",
         icon: "instagram",
       },
     ],
