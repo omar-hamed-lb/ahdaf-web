@@ -15,6 +15,7 @@ export default {
         cwhite: "#F5F5F5",
         cbrown: "#D9B08C",
         cgray: "#B2BEC3",
+        cblack: "081E3D",
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
