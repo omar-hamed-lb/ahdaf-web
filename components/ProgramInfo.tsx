@@ -100,11 +100,10 @@ export default function InfoCard({
         <div className="md:hidden absolute inset-0 z-0 bg-cblue"></div>
         <img
           src="/images/mask2.svg"
-          className={`hidden lg:block md:absolute object-cover inset-0 z-10 pt-14 -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2`}
+          className={`hidden lg:block md:absolute object-cover inset-0 z-10 pt-6 -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2`}
           style={{
             height: `${height}px`,
             width: `${width}px`,
-            transform: "translate",
           }}
         />
 
