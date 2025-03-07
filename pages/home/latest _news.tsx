@@ -1,16 +1,16 @@
 import React from "react";
 const AhdafNews: React.FC = () => {
   return (
-    
-    <section 
-    style={{
+    <section
+      style={{
         backgroundImage: "url('/images/latest_news.jpg')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover", // Ensures the image covers the entire section
         backgroundPosition: "center", // Centers the image
-      }}>
-        <div
-        className="w-[calc(100%+40px)] h-40 -mx-5 items-center justify-center absolute"
+      }}
+    >
+      <div
+        className="w-full h-40 items-center justify-center absolute"
         style={{
           WebkitMask: `url(/images/seperator.svg)`,
           WebkitMaskRepeat: "repeat-x",
@@ -24,34 +24,35 @@ const AhdafNews: React.FC = () => {
           imageRendering: "crisp-edges",
         }}
       ></div>
-        <div className="overflow-hidden">
-          <div className="p-10 pt-48 pl-28 pr-28 left-0 max-w-xl bg-white/80">
-            <h1 className="text-green-500 font-bold text-4xl">LATEST NEWS</h1>
-            <h3 className="text-xl font-bold text-[#102F5C] mt-8">AHDAF CHARITY ENDOWMENT</h3>
-            <p className="text-[#041231] mt-2 text-justify">
-              Ahdaf Charity Endowment successfully hosted 
-              its Annual Ramadan Gathering on Sunday, 
-              February 23, 2025, at Dar Al Amar Restaurant, 
-              bringing together a distinguished group of 
-              business leaders and key supporters.
-            </p>
-            <p className="text-[#041231] mt-2 text-justify">
-              The event served as a platform to introduce 
-              Ahdaf’s upcoming Ramadan campaign “ATA’UKA ALLAMANI”, 
-              emphasizing the importance of collective efforts in 
-              supporting our programs. Additionally, it provided 
-              an opportunity to reflect on the achievements and 
-              initiatives undertaken over the past year, showcasing 
-              the impact of community-driven projects and partnerships.
-            </p>
-            <p className="text-[#041231] mt-2 text-justify">
-              During the gathering, attendees engaged in 
-              discussions on sustainable giving, social 
-              responsibility, and future collaboration 
-              opportunities, reinforcing Ahdaf’s commitment 
-              to creating long-term positive change.
-            </p>
-          </div>
+      <div className="overflow-x-hidden">
+        <div className="p-8 pt-48  md:px-28 left-0 max-w-xl bg-white/80">
+          <h1 className="text-center md:text-left text-green-500 font-bold text-4xl ">
+            LATEST NEWS
+          </h1>
+          <h3 className="text-xl font-bold text-[#102F5C] mt-8">
+            AHDAF CHARITY ENDOWMENT
+          </h3>
+          <p className="text-[#041231] mt-2 text-justify">
+            Ahdaf Charity Endowment successfully hosted its Annual Ramadan
+            Gathering on Sunday, February 23, 2025, at Dar Al Amar Restaurant,
+            bringing together a distinguished group of business leaders and key
+            supporters.
+          </p>
+          <p className="text-[#041231] mt-2 text-justify">
+            The event served as a platform to introduce Ahdaf’s upcoming Ramadan
+            campaign “ATA’UKA ALLAMANI”, emphasizing the importance of
+            collective efforts in supporting our programs. Additionally, it
+            provided an opportunity to reflect on the achievements and
+            initiatives undertaken over the past year, showcasing the impact of
+            community-driven projects and partnerships.
+          </p>
+          <p className="text-[#041231] mt-2 text-justify">
+            During the gathering, attendees engaged in discussions on
+            sustainable giving, social responsibility, and future collaboration
+            opportunities, reinforcing Ahdaf’s commitment to creating long-term
+            positive change.
+          </p>
+        </div>
       </div>
     </section>
   );
