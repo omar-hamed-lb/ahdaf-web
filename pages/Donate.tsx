@@ -6,7 +6,7 @@ export default function Donate() {
       {/* Top Image */}
       <section className="w-full relative mt-20">
         <Image
-          src="/images/عطاؤك علمني.png" // Replace with your image path
+          src="/images/ATA’UKA ALLAMANI.jpg" // Replace with your image path
           alt="Top Image"
           width={0}
           height={0}
