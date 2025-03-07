@@ -4,7 +4,7 @@ const AhdafNews: React.FC = () => {
     
     <section 
     style={{
-        backgroundImage: "url('/images/latest_news.png')",
+        backgroundImage: "url('/images/latest_news.jpg')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover", // Ensures the image covers the entire section
         backgroundPosition: "center", // Centers the image
