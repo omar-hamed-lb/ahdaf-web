@@ -3,8 +3,17 @@ import Image from "next/image";
 export default function Donate() {
   return (
     <div className="2xl:container lg:mx-auto md:text-lg xl:text-xl">
+      {/* Top Image */}
+      <section className="w-full h-[610px] relative mt-20">
+        <Image
+          src="/images/عطاؤك علمني.png"  // Replace with your image path
+          alt="Top Image"
+          layout="fill"
+          objectFit="cover"
+        />
+      </section>
       {/* Title Section */}
-      <section className="flex flex-col items-center text-center mt-24">
+      <section className="flex flex-col items-center text-center mt-12">
         <h1 className="text-3xl mb-6 font-bold text-cgreen">
           ATA’UKA ALLAMANI
         </h1>
