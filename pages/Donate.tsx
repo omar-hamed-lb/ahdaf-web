@@ -112,8 +112,8 @@ export default function Donate() {
               link:
             </p>
             <p className="ml-8">
-              <a href="http://goto.gg/67781" className="underline">
-                http://goto.gg/67781
+              <a href="http://goto.gg/68973" className="underline">
+                http://goto.gg/68973
               </a>
             </p>
           </div>
