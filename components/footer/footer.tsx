@@ -98,17 +98,17 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4 uppercase">Contact Us</h3>
             <p className="mb-4">
               <a
-                href="mailto:info@ahdaf.org"
+                href="mailto:info@ahdaf.org.lb"
                 className="hover:text-cgreen transition-colors"
               >
-                info@ahdaf.org
+                info@ahdaf.org.lb
               </a>
             </p>
 
             <h3 className="text-lg font-bold mb-2 uppercase">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com/ahdafcharity"
+                href="https://facebook.com/ahdaf.charity"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -122,7 +122,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://instagram.com/ahdafcharity"
+                href="https://instagram.com/ahdaf.charity"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -135,7 +135,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/ahdafcharity"
+                href="https://www.linkedin.com/company/ahdaf-charity/about/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

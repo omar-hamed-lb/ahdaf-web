@@ -30,11 +30,11 @@ export function Program({
 export default function About() {
   return (
     <section
-      className="relative bg-cover bg-center py-28 "
+      className="relative bg-cover bg-center pt-20 pb-6 md:py-28 "
       style={{ backgroundImage: "url('/backgrounds/about_us_bg.png')" }}
     >
       <div className="absolute inset-0 bg-[#0D2853] opacity-90"></div>
-      <div className="relative z-10 text-white text-center p-6">
+      <div className="relative z-10 text-white text-center p-8">
         <h2 className="text-3xl font-bold text-cgreen block">ABOUT US</h2>
         <div className="mt-6 mx-auto max-w-[640px] text-justify lg:text-center md:text-lg xl:text-xl">
           We are a diverse group of individuals from Northern Lebanon
@@ -44,7 +44,7 @@ export default function About() {
         </div>
 
         {/* Three Benefits */}
-        <div className="flex flex-col md:flex-row gap-14 text-white mt-16 text-left px-10 ">
+        <div className="flex flex-col md:flex-row gap-14 text-white mt-16 text-left px-6 md:px-10 ">
           <div className="flex-1">
             <h3 className="text-2xl font-bold text-cbrown  block text-center">
               OUR MISSION

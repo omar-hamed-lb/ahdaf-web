@@ -35,7 +35,7 @@ export default function Donate() {
         className="relative bg-cover bg-center"
         style={{ backgroundImage: "url('/images/donation.jpg')" }}
       >
-        <div className="absolute inset-0 bg-[#0D2853] opacity-85"></div>
+        <div className="absolute inset-0 bg-[#0D2853] opacity-90"></div>
         <div className="relative z-10 text-white text-center p-6">
           <h2 className="text-3xl font-bold text-cgreen">
             WHY YOUR SUPPORT MATTERS?
@@ -43,7 +43,7 @@ export default function Donate() {
 
           {/* Three Benefits */}
           <div className="flex flex-col md:flex-row gap-14 text-white mt-6 text-left px-10">
-            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#D9B08C] marker:font-bold md:text-lg xl:text-xl ">
+            <ol className="flex flex-col md:flex-row gap-14 list-decimal marker:text-[#D9B08C] marker:font-bold md:text-lg xl:text-xl text-justify md:text-left">
               <li className="flex-1">
                 Empowerment through education: Your generosity helps provide
                 essential resources, scholarships, and educational programs that
