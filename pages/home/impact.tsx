@@ -9,7 +9,7 @@ export default function Impact() {
           </span>
         </h2>
         <div className="flex flex-wrap justify-center mt-8 gap-12 lg:gap-24">
-          <StatCard number="8358+" subtitle="Beneficiaries" />
+          <StatCard number="8500+" subtitle="Beneficiaries" />
           <StatCard number="850+" subtitle="Scholarships" />
           <StatCard number="350+" subtitle="Trainings" />
           <StatCard number="250+" subtitle="Opportunities" />

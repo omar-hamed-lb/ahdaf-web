@@ -77,7 +77,7 @@ export default function Donate() {
               />
             </div>
             <p className="mt-4 ml-8">
-              For donating by Wish Money to the Standing Together campaign:{" "}
+              Donate on this number:{" "}
               <strong>0096176050224</strong>
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Donate() {
           {/* By Website */}
           <div className="mt-8">
             <div className="bg-[#7A7979] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
-              <h4 className="text-lg font-bold">By Website</h4>
+              <h4 className="text-lg font-bold">Website</h4>
               <Image
                 width={30}
                 height={32}
@@ -95,16 +95,10 @@ export default function Donate() {
               />
             </div>
             <p className="mt-4 ml-8">
-              For donating to the Standing Together campaign:
+              Donate to ATA'UKA ALLAMANI: Educate 500 Students via this link:
             </p>
             <p className="ml-8">
-              <a
-                href="https://www.globalgiving.org/projects/hope-initiative/ "
-                className="underline"
-              >
-                https://www.globalgiving.org/projects/hope-initiative/{" "}
-              </a>
-              Short link:{" "}
+            
               <a href="http://goto.gg/67781" className="underline">
                 http://goto.gg/67781
               </a>
@@ -114,7 +108,7 @@ export default function Donate() {
           {/* By Bank */}
           <div className="mt-8">
             <div className="bg-[#102F5C] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
-              <h4 className="text-lg font-bold">By Bank</h4>
+              <h4 className="text-lg font-bold">Bank</h4>
               <Image
                 width={34}
                 height={33}
@@ -125,7 +119,7 @@ export default function Donate() {
             </div>
             <div className="ml-8 mt-4">
               <p>
-                For donating by bank transfer from Lebanon in USD: IBAN NO:{" "}
+                Donate by bank transfer from Lebanon in USD: IBAN NO:{" "}
                 <strong>LB69 0127 0003 0023 5300 5169 1015</strong>
               </p>
               <p>Account Details:</p>
@@ -157,7 +151,7 @@ export default function Donate() {
           {/* By Cash */}
           <div className="mt-8">
             <div className="bg-[#28C76F] flex items-center p-2 rounded-r-md text-white w-fit pl-8">
-              <h4 className="text-lg font-bold">By Cash</h4>
+              <h4 className="text-lg font-bold">Cash</h4>
               <Image
                 width={30}
                 height={31}
@@ -172,7 +166,7 @@ export default function Donate() {
             <p className="ml-8">
               Send a WhatsApp text message on: 0096176050224
             </p>
-            <p className="ml-8">Or contact us by email on:</p>
+            <p className="ml-8">Or contact us by email: <a href="mailto:info@ahdaf.org.lb">info@ahdaf.org.lb</a></p>
           </div>
         </div>
       </section>
