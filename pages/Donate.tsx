@@ -9,10 +9,11 @@ export default function Donate() {
           ATA’UKA ALLAMANI
         </h1>
         <p className="w-[90%] max-w-4xl mx-auto text-[#081E3D] mb-8 text-justify lg:text-center md:text-lg xl:text-xl">
-        As we welcome the holy month of Ramadan, Ahdaf Charity Endowment calls 
-        on you to be part of a life-changing mission – Ata’uka Allamani Campaign. 
-        This urgent initiative aims to collect zakat and sadaqat to support over 
-        500 students in Lebanon, including both children and university students.
+          As we welcome the holy month of Ramadan, Ahdaf Charity Endowment calls
+          on you to be part of a life-changing mission – Ata’uka Allamani
+          Campaign. This urgent initiative aims to collect zakat and sadaqat to
+          support over 500 students in Lebanon, including both children and
+          university students.
         </p>
       </section>
 
@@ -77,8 +78,7 @@ export default function Donate() {
               />
             </div>
             <p className="mt-4 ml-8">
-              Donate on this number:{" "}
-              <strong>0096176050224</strong>
+              Donate on this number: <strong>0096176050224</strong>
             </p>
           </div>
 
@@ -95,10 +95,10 @@ export default function Donate() {
               />
             </div>
             <p className="mt-4 ml-8">
-              Donate to ATA'UKA ALLAMANI: Educate 500 Students via this link:
+              Donate to ATA&apos;UKA ALLAMANI: Educate 500 Students via this
+              link:
             </p>
             <p className="ml-8">
-            
               <a href="http://goto.gg/67781" className="underline">
                 http://goto.gg/67781
               </a>
@@ -166,7 +166,10 @@ export default function Donate() {
             <p className="ml-8">
               Send a WhatsApp text message on: 0096176050224
             </p>
-            <p className="ml-8">Or contact us by email: <a href="mailto:info@ahdaf.org.lb">info@ahdaf.org.lb</a></p>
+            <p className="ml-8">
+              Or contact us by email:{" "}
+              <a href="mailto:info@ahdaf.org.lb">info@ahdaf.org.lb</a>
+            </p>
           </div>
         </div>
       </section>
