@@ -98,10 +98,10 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4 uppercase">Contact Us</h3>
             <p className="mb-4">
               <a
-                href="mailto:info@ahdaf.org"
+                href="mailto:info@ahdaf.org.lb"
                 className="hover:text-cgreen transition-colors"
               >
-                info@ahdaf.org
+                info@ahdaf.org.lb
               </a>
             </p>
 
