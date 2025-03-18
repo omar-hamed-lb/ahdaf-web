@@ -72,6 +72,23 @@ export default function Donate() {
         </div>
       </section>
 
+      {/* Videos */}
+      <section className="min-h-screen flex items-center justify-center">
+        <div className="w-full max-w-4xl p-6">
+          <h1 className="text-4xl font-bold text-center text-cgreen mb-2 mt-6">Ramadan 2025 Campaign</h1>
+          <h1 className="text-4xl font-bold text-center text-cgreen mb-6">#atauka_allamani</h1>
+          <div className="relative overflow-hidden rounded-lg aspect-video">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/PTVJZIikQJg"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* Donation Options */}
       <section className="py-10">
         <h2 className="text-center text-3xl font-bold text-cgreen">

@@ -52,9 +52,11 @@ const AhdafNews: React.FC = () => {
             opportunities, reinforcing Ahdaf’s commitment to creating long-term
             positive change.
           </p>
+
         </div>
       </div>
     </section>
+
   );
 };
 
