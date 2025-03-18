@@ -8,7 +8,7 @@ const YouTubeVideoPage: React.FC = () => {
         Gallery
         </h1>
         <h2 className="text-2xl font-bold text-center text-[#102F5C] mb-2">Ramadan 2025 Campaign</h2>
-        <h2 className="text-2xl font-bold text-center text-[#102F5C] mb-6">#atauka_allamani</h2>
+        <h2 className="text-2xl font-bold text-center text-[#102F5C] mb-6">#ATA’UKA_ALLAMANI</h2>
         <div className="relative overflow-hidden rounded-lg aspect-video">
           <iframe
             className="w-full h-full"
