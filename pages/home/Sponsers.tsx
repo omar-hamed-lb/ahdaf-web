@@ -6,13 +6,14 @@ const sponsors = [
   { name: "Nahle Home", logo: "/images/sponsers/nahle_home.png" },
   { name: "SPEED MATH", logo: "/images/sponsers/SPEED MATH LOGO.png" },
   { name: "Tech Store", logo: "/images/sponsers/tech_store.png" },
+  { name: "Jelly jungle", logo: "/images/sponsers/jelly jungle.png" }
 ];
 
 const Sponsors: React.FC = () => {
   return (
-    <section className="py-8 bg-white">
+    <section className="py-8 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center mb-6 text-cgreen">
+        <h2 className="text-4xl font-bold text-center text-green-500 mb-8">
           Our Sponsors
         </h2>
         <div className="flex flex-wrap justify-center items-center text-black">

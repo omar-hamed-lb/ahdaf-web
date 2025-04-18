@@ -17,10 +17,27 @@ export default function Donate() {
       </section>
 
       {/* Title Section */}
-      <section className="flex flex-col items-center text-center mt-12">
-        <h1 className="text-3xl mb-6 font-bold text-cgreen">
+      
+        <h1 className="text-3xl mb-4 font-bold text-cgreen text-center mt-12">
           ATA’UKA ALLAMANI
         </h1>
+
+        {/* Videos */}
+        <section className="min-h-screen flex items-center justify-center">
+          <div className="w-full max-w-4xl p-6">
+            <div className="relative overflow-hidden rounded-lg aspect-video">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/PTVJZIikQJg"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section className="flex flex-col items-center text-center">
         <p className="w-[90%] max-w-4xl mx-auto text-[#081E3D] mb-8 text-justify lg:text-center md:text-lg xl:text-xl">
           As we welcome the holy month of Ramadan, Ahdaf Charity Endowment calls
           on you to be part of a life-changing mission – Ata’uka Allamani
@@ -69,23 +86,6 @@ export default function Donate() {
             promise and possibility. Thank you for considering a donation to
             Ahdaf Charity Endowment; your support is invaluable!
           </p>
-        </div>
-      </section>
-
-      {/* Videos */}
-      <section className="min-h-screen flex items-center justify-center">
-        <div className="w-full max-w-4xl p-6">
-          <h1 className="text-3xl font-bold text-center text-cgreen mb-2 mt-6">Ramadan 2025 Campaign</h1>
-          <h1 className="text-3xl font-bold text-center text-cgreen mb-6">#ATA’UKA_ALLAMANI</h1>
-          <div className="relative overflow-hidden rounded-lg aspect-video">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/PTVJZIikQJg"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
         </div>
       </section>
 
